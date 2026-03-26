@@ -32,6 +32,37 @@
 
   <title>pdf_charter</title>
   <link rel="manifest" href="manifest.json">
+  <style>
+    /* Customize browser-native spellcheck highlighting */
+    ::spelling-error {
+      text-decoration: underline wavy #FF0000 !important; /* Pure red for maximum visibility */
+      text-decoration-color: #FF0000 !important;
+      text-decoration-style: wavy !important;
+      text-decoration-thickness: 3px !important;
+      background-color: rgba(255, 0, 0, 0.1) !important; /* Subtle red bg in case underline fails */
+    }
+  </style>
+  <script>
+    // Enable browser-native spellcheck for Flutter Web
+    function enableSpellCheck(el) {
+      if (!el) return;
+      if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.contentEditable === 'true') {
+        if (el.getAttribute('spellcheck') !== 'true') {
+          el.setAttribute('spellcheck', 'true');
+        }
+      }
+    }
+
+    // Monitor for focus and DOM changes
+    document.addEventListener('focus', (e) => enableSpellCheck(e.target), true);
+    document.addEventListener('focusin', (e) => enableSpellCheck(e.target), true);
+
+    // Periodic check for dynamically created inputs (common in Flutter Web)
+    setInterval(() => {
+      const inputs = document.querySelectorAll('input, textarea, [contenteditable="true"]');
+      inputs.forEach(enableSpellCheck);
+    }, 1000);
+  </script>
 </head>
 
 <body>
