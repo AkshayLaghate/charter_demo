@@ -161676,23 +161676,22 @@ case"REJECTED":return B.c2
 case"IN PROGRESS":return B.aQ
 case"DRAFT":return B.dR
 default:return B.aL}},
-aGw(a){var s,r,q,p,o,n,m,l=this,k=null,j=a.dx,i=(j==null?"":j).length===0
-if(a.ax)j=a.ay
-else j=!1
-s=j&&i
-r=l.a_9(a)
-q=B.j.p(r,"COMPLETED")||B.j.p(r,"INPROGRESS")||B.j.p(r,"IN_PROGRESS")
-if(i){j=s?"Send approved charter party to Zoho Sign":u.ea
-p=s?new A.azs(l,a):k
-return A.zz(A.zt(B.I6,B.c3V,p,A.m9(k,k,k,k,k,k,k,k,k,k,k,k,B.fx,k,k,k,k,k,k,B.D3)),j,k)}j=l.b24(a)
-p=A.a6(12)
-o=l.ajY(a)
-o=A.bR(31,o.T()>>>16&255,o.T()>>>8&255,o.T()&255)
-n=A.a6(12)
-m=t.p
-j=A.b([A.zz(A.ez(!1,p,!0,A.ag(k,A.P(l.a_9(a),k,k,k,A.b6(k,k,l.ajY(a),k,k,k,k,k,k,k,k,10,k,k,B.bj,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.C,k,k,new A.aA(o,k,k,n,k,k,B.X),k,k,k,B.GC,B.fx,k,k,k),k,!0,k,k,k,k,k,k,k,k,k,k,k,new A.azt(l,a),k,k,k,k,k,k,k),j,B.x5)],m)
-if(q)B.e.P(j,A.b([B.bc,A.zz(A.ez(!1,k,!0,A.b5(B.HO,B.cn,k,20),k,!0,k,k,k,k,k,k,k,k,k,k,k,new A.azu(l,a),k,k,k,k,k,k,k),"Download signed PDF",k)],m))
-return A.aw(j,B.L,B.D,B.au,0,k,k)},
+aGw(a){var s,r,q,p,o,n,m=this,l=null,k=a.dx,j=(k==null?"":k).length===0
+if(a.ax)k=a.ay
+else k=!1
+s=k&&j
+r=B.j.p(m.a_9(a),"COMPLETED")
+if(j){k=s?"Send approved charter party to Zoho Sign":u.ea
+q=s?new A.azs(m,a):l
+return A.zz(A.zt(B.I6,B.c3V,q,A.m9(l,l,l,l,l,l,l,l,l,l,l,l,B.fx,l,l,l,l,l,l,B.D3)),k,l)}k=m.b24(a)
+q=A.a6(12)
+p=m.ajY(a)
+p=A.bR(31,p.T()>>>16&255,p.T()>>>8&255,p.T()&255)
+o=A.a6(12)
+n=t.p
+k=A.b([A.zz(A.ez(!1,q,!0,A.ag(l,A.P(m.a_9(a),l,l,l,A.b6(l,l,m.ajY(a),l,l,l,l,l,l,l,l,10,l,l,B.bj,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.C,l,l,new A.aA(p,l,l,o,l,l,B.X),l,l,l,B.GC,B.fx,l,l,l),l,!0,l,l,l,l,l,l,l,l,l,l,l,new A.azt(m,a),l,l,l,l,l,l,l),k,B.x5)],n)
+if(r)B.e.P(k,A.b([B.bc,A.zz(A.ez(!1,l,!0,A.b5(B.HO,B.cn,l,20),l,!0,l,l,l,l,l,l,l,l,l,l,l,new A.azu(m,a),l,l,l,l,l,l,l),"Download signed PDF",l)],n))
+return A.aw(k,B.L,B.D,B.au,0,l,l)},
 ajY(a){var s=this.a_9(a)
 if(B.j.p(s,"COMPLETED")||B.j.p(s,"SIGNED"))return B.ch
 if(B.j.p(s,"FAILED")||B.j.p(s,"DECLINED")||B.j.p(s,"EXPIRED"))return B.c2
@@ -162721,27 +162720,26 @@ n=$.n
 n=r==(n==null?$.n=B.x:n).N(0,j,s).gxX()?new A.aDE(a6):j
 l=$.n
 return A.Ht(A.b([i,h,g,f,e,d,c,q,A.dm(A.aw(A.b([p,o,B.bc,m,B.bc,A.ez(!1,j,!0,A.b5(B.y9,r==(l==null?$.n=B.x:l).N(0,j,s).gxX()?B.cX:B.bf,j,20),j,!0,j,j,j,j,j,j,j,j,j,j,j,n,j,j,j,j,j,j,j)],t.p),B.L,B.D,B.au,0,j,j))],t.sa))},
-aIK(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=a.dx,h=(i==null?"":i).length===0
-i=$.n
-if(i==null)i=$.n=B.x
-s=i.N(0,j,A.j(k).j("as.T")).p1.gl(0).p(0,a.a)
-if(a.ax)i=a.ay
-else i=!1
-r=i&&h
-q=k.VI(a)
-p=B.j.p(q,"COMPLETED")||B.j.p(q,"INPROGRESS")||B.j.p(q,"IN_PROGRESS")
-if(h){i=r?"Send approved charter party to Zoho Sign":u.ea
-o=r&&!s?new A.aDR(k,a):j
-n=s?B.bWI:B.I6
-return A.zz(A.zt(n,A.P(s?"Sending...":"Send to Zoho Sign",j,j,j,j,j,j,j),o,A.m9(j,j,j,j,j,j,j,j,j,j,j,j,B.fx,j,j,j,j,j,j,B.D3)),i,j)}i=k.aIN(a)
-o=A.a6(12)
-n=k.ab1(a)
-n=A.bR(31,n.T()>>>16&255,n.T()>>>8&255,n.T()&255)
-m=A.a6(12)
-l=t.p
-i=A.b([A.zz(A.ez(!1,o,!0,A.ag(j,A.P(k.VI(a),j,j,j,A.b6(j,j,k.ab1(a),j,j,j,j,j,j,j,j,10,j,j,B.bj,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),B.C,j,j,new A.aA(n,j,j,m,j,j,B.X),j,j,j,j,B.fx,j,j,j),j,!0,j,j,j,j,j,j,j,j,j,j,j,new A.aDS(k,a),j,j,j,j,j,j,j),i,B.x5)],l)
-if(p)B.e.P(i,A.b([B.bc,A.zz(A.ez(!1,j,!0,A.b5(B.HO,B.cn,j,20),j,!0,j,j,j,j,j,j,j,j,j,j,j,new A.aDT(k,a),j,j,j,j,j,j,j),"Download signed PDF",j)],l))
-return A.aw(i,B.L,B.D,B.au,0,j,j)},
+aIK(a){var s,r,q,p,o,n,m,l=this,k=null,j=a.dx,i=(j==null?"":j).length===0
+j=$.n
+if(j==null)j=$.n=B.x
+s=j.N(0,k,A.j(l).j("as.T")).p1.gl(0).p(0,a.a)
+if(a.ax)j=a.ay
+else j=!1
+r=j&&i
+q=B.j.p(l.VI(a),"COMPLETED")
+if(i){j=r?"Send approved charter party to Zoho Sign":u.ea
+p=r&&!s?new A.aDR(l,a):k
+o=s?B.bWI:B.I6
+return A.zz(A.zt(o,A.P(s?"Sending...":"Send to Zoho Sign",k,k,k,k,k,k,k),p,A.m9(k,k,k,k,k,k,k,k,k,k,k,k,B.fx,k,k,k,k,k,k,B.D3)),j,k)}j=l.aIN(a)
+p=A.a6(12)
+o=l.ab1(a)
+o=A.bR(31,o.T()>>>16&255,o.T()>>>8&255,o.T()&255)
+n=A.a6(12)
+m=t.p
+j=A.b([A.zz(A.ez(!1,p,!0,A.ag(k,A.P(l.VI(a),k,k,k,A.b6(k,k,l.ab1(a),k,k,k,k,k,k,k,k,10,k,k,B.bj,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.C,k,k,new A.aA(o,k,k,n,k,k,B.X),k,k,k,k,B.fx,k,k,k),k,!0,k,k,k,k,k,k,k,k,k,k,k,new A.aDS(l,a),k,k,k,k,k,k,k),j,B.x5)],m)
+if(q)B.e.P(j,A.b([B.bc,A.zz(A.ez(!1,k,!0,A.b5(B.HO,B.cn,k,20),k,!0,k,k,k,k,k,k,k,k,k,k,k,new A.aDT(l,a),k,k,k,k,k,k,k),"Download signed PDF",k)],m))
+return A.aw(j,B.L,B.D,B.au,0,k,k)},
 ab1(a){var s=this.VI(a)
 if(B.j.p(s,"COMPLETED")||B.j.p(s,"SIGNED"))return B.ch
 if(B.j.p(s,"FAILED")||B.j.p(s,"DECLINED")||B.j.p(s,"EXPIRED"))return B.c2
